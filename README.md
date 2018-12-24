@@ -1,10 +1,24 @@
-# Four Point Four
+# Four Point Four <!-- omit in toc -->
 
 With [CSE 4400](https://catalog.uconn.edu/cse/#4400) not being offered for 
 this upcoming Spring 2019 semester, a group of undergraduates came together
 in order to try and make a curriculum of their own.
 
 This is that repo.
+
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Purpose](#purpose)
+- [Format](#format)
+- [Topics](#topics)
+  - [Reverse engineering](#reverse-engineering)
+  - [Sandboxing/Containers](#sandboxingcontainers)
+  - [Timing channels](#timing-channels)
+  - [SELinux](#selinux)
+  - [Database security](#database-security)
+  - [Mobile security](#mobile-security)
+  - [Malware](#malware)
+  - [How to write good code](#how-to-write-good-code)
 
 ## Purpose
 
@@ -40,29 +54,37 @@ session. It's run akin to a graduate level course.
 
 ## Topics
 
-This is the tentative list of topics.
+These are the tentative topics that will be covered. Additional links lead
+out to resources to help explain the topic better.
 
-1. Reverse engineering
-    - [Buffer overflows](https://en.wikipedia.org/wiki/Buffer_overflow)
-    - [Return-oriented programming](https://en.wikipedia.org/wiki/Return-oriented_programming)
-    - [Canaries](https://en.wikipedia.org/wiki/Buffer_overflow_protection#Canaries)
-    - [ASLR](https://en.wikipedia.org/wiki/Address_space_layout_randomization)
 
-2. Sandboxing/Containers
-    - Cache attacks/lookahead
+### Reverse engineering
+#### Subtopics to cover <!-- omit in toc -->
+1. [Buffer overflows](https://en.wikipedia.org/wiki/Buffer_overflow)
+2. [Return-oriented programming](https://en.wikipedia.org/wiki/Return-oriented_programming)
+3. [Canaries](https://en.wikipedia.org/wiki/Buffer_overflow_protection#Canaries)
+4. [ASLR](https://en.wikipedia.org/wiki/Address_space_layout_randomization)
 
-3. Timing channels
+- [Interactive ROP Tutorial](https://bordplate.no/blog/en/post/interactive-rop-tutorial/index.html)
 
-4. [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux)
+### Sandboxing/Containers
 
-5. Database security
+### Timing channels
 
-6. Mobile security
-    - Sandboxing
-    - [RISC](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer)
+### SELinux
 
-7. Malware
+### Database security
 
-8. How to write good code
-    - [Valgrind](https://en.wikipedia.org/wiki/Valgrind)
-    - [Static](https://en.wikipedia.org/wiki/Static_program_analysis)/[Dynamic Analysis](https://en.wikipedia.org/wiki/Dynamic_program_analysis)
+### Mobile security
+#### Subtopics to cover <!-- omit in toc -->
+1. Sandboxing
+2. [RISC](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer)
+
+### Malware
+
+### How to write good code
+#### Subtopics to cover <!-- omit in toc -->
+1. [Valgrind](https://en.wikipedia.org/wiki/Valgrind)
+2. [Static](https://en.wikipedia.org/wiki/Static_program_analysis)/[Dynamic Analysis](https://en.wikipedia.org/wiki/Dynamic_program_analysis)
+
+- OWASP's [Security by Design](https://www.owasp.org/index.php/Security_by_Design_Principles)
